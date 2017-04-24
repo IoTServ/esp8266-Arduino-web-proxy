@@ -26,6 +26,9 @@ void setup() {
   Serial.println("WiFi connected");  
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
+  Serial.print("Please open http://www.mcunode.com/proxy/");
+  Serial.print(id);
+  Serial.println("/LED");
 }
 
 int value = 0;
