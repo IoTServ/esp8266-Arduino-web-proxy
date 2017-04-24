@@ -68,7 +68,7 @@ void loop() {
     digitalWrite(ledPin, LOW);
     value = LOW;
   }
- Serial.println(value);
+ //Serial.println(value);
 
 
   if(value == HIGH) {
